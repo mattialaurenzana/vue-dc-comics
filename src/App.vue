@@ -3,6 +3,8 @@
       <header-box />
       <jumbotron-box />
       <section-items />
+      <footer-box />
+      <last-box />
   </div>
 </template>
 
@@ -10,13 +12,17 @@
 import headerBox from './components/headerBox.vue'
 import jumbotronBox from './components/jumbotronBox.vue'
 import sectionItems from './components/sectionItems.vue'
+import footerBox from './components/footerBox.vue'
+import lastBox from './components/lastBox.vue'
 
 export default {
   name: 'App',
   components: {
     headerBox,
     jumbotronBox,
-    sectionItems
+    sectionItems,
+    footerBox,
+    lastBox
   }
 }
 </script>

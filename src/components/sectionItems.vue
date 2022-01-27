@@ -1,6 +1,7 @@
 <template>
     <div class="section-items">
-        <ul>
+        <div class="items-container">
+            <ul>
             <li>
                 <img src="../assets/buy-comics-digital-comics.png" alt="">
                 <span>DIGITAL COMICS</span>
@@ -22,6 +23,7 @@
                 <span>DC POWER VISA</span>
             </li>
         </ul>
+        </div>
     </div>
 </template>
 
