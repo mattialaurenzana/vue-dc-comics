@@ -7,17 +7,7 @@
 
         <div class="header-right">
             <ul>
-                <li>characters</li>
-                <li>comics</li>
-                <li>movies</li>
-                <li>tv</li>
-                <li>games</li>
-                <li>collectibles</li>
-                <li>videos</li>
-                <li>fans</li>
-                <li>news</li>
-                <li>shop</li>
-
+               <li v-for="item in list" :key="item"><a href="">{{item}}</a></li>
             </ul>
 
         </div>
@@ -31,7 +21,9 @@
 
 <script>
 export default {
-    
+    props:{
+        list: Array
+    }
 }
 </script>
 

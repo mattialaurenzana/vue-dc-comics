@@ -2,7 +2,7 @@ footer{
     height: 400px;
     background: url('../assets/footer-bg.jpg');
     display: flex;
-    padding: 0 170px;
+    padding: 0 220px;
     overflow: hidden;
 
     img{
@@ -11,7 +11,7 @@ footer{
     }
 
     .footer-inner{
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
         height: 100%;
         display: flex;
@@ -25,7 +25,7 @@ footer{
         flex-wrap: wrap;
 
         span{
-            margin: 35px 0;
+            margin: 30px 0;
             margin-right: 35px;
         }
 
